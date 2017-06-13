@@ -1,9 +1,12 @@
-package com.mw.interactivestory;
+package com.mw.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.mw.interactivestory.R;
+import com.mw.interactivestory.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
 
@@ -19,6 +22,5 @@ public class StoryActivity extends AppCompatActivity {
         if (name == null || name.isEmpty()) {
             name = "Friend";
         }
-        Log.d(TAG, name);
     }
 }
